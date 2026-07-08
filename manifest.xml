@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <project name="xz-systems-wall">
+        <component name="sentinel-osint">
+            <type>python-pipeline</type>
+            <dependency>requests</dependency>
+        </component>
+        <component name="inferno-mesh">
+            <type>orchestration-layer</type>
+            <environment>docker</environment>
+        </component>
+        <status>production-deployment</status>
+    </project>
+</manifest>

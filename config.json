@@ -1,0 +1,17 @@
+{
+    "framework": "XZ-Systems-Wall",
+    "version": "4.0",
+    "modules": {
+        "sentinel_osint": {
+            "enabled": true,
+            "scan_mode": "passive",
+            "timeout_seconds": 25,
+            "providers": ["crt_sh", "passive_dns"]
+        },
+        "inferno_mesh": {
+            "enabled": true,
+            "isolation_level": "containerized",
+            "self_healing": true
+        }
+    }
+}
